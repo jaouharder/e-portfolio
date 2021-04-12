@@ -40,10 +40,11 @@
    <header>   	
 	
            <div class="row">
-            <select class="selectpicker" id="language" onchange="myFunction()" data-width="fit">
-         
-         <option value="fr" data-content='Français'>Français</option><option value="eng" data-content='English'>English</option>
-            </select>
+            <div class="sticky-top">
+				<select class="selectpicker" id="language" onchange="myFunction()" data-width="fit">
+			 <option value="fr" data-content='Français'>Français</option>
+			 <option value="eng" data-content='English'>English</option>
+				</select></div>
  <script>
       function myFunction() {
      if(document.getElementById("language").value == "fr"){
@@ -73,6 +74,10 @@
 						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
 						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
 						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+                        <li><select class="selectpicker" id="language" onchange="myFunction()" data-width="fit">
+							<option value="eng" data-content='English'>English</option>
+							<option value="fr" data-content='Français'>Français</option>
+							   </select></li>	
 						<!-- <li><a href="styles.html" title="">Style Demo</a></li>				 -->
 					</ul>
 				</nav>    		
@@ -408,7 +413,33 @@
 							<img src="images/portfolioo/tic.png" alt="" />
 						</div>      	
 
-					  <div class="description-box">
+					  <div class="description-box">			  
+						  <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+				<div class="media">
+					<img src="images/portfolioo/brief2.jpg" alt="" />
+				</div>      	
+
+			  <div class="description-box">
+				 <h4>Système de reservation dans la banque</h4>		      
+				 <p>Dans ce projet, la fonctionnalité principale est de réserver votre place dans un
+                    banque en ligne, comme on le sait au Maroc si l'on veut faire un simple
+                    virement, nous devons demander un jour de congé et le dépenser à la banque.
+                    Nous offrons également aux employés de cette banque une fonctionnalité d'affichage
+                    des réservations de ce jour avec quelques détails d'optimisation.
+                    <p> Technologies: JEE, JS, HTML5 / CSS3, BOOTSTRAP, GIT, REST
+                    API, DOCKER. </p>
+					</p>
+
+				 <div class="categories">Développement web</div>			               
+			  </div>
+
+			<div class="link-box">
+				   <a href="https://github.com/jaouharder/Projet-JEE" target="_blank">Détails</a>
+				<a href="#" class="popup-modal-dismiss">Fermer</a>
+			</div>		      
+
+		  </div>
 						 <h4>TIC TAC TOE</h4>		      
 						 <p>En utilisant C, nous avons créé le jeu TIC TAC TOE avec deux
                             options, l'une d'elles est de jouer contre l'ordinateur dans lequel
@@ -469,37 +500,12 @@
 				  </div>
 
 				<div class="link-box">
-					   <a href="#">Détails</a>
+					   <a href="2020_1A_GL_Mem_DERROUICH.pdf">Détails</a>
 					<a href="#" class="popup-modal-dismiss">Fermer</a>
 				</div>		      
 
 			  </div> 	
-			  <div id="modal-04" class="popup-modal slider mfp-hide">	
 
-				<div class="media">
-					<img src="images/portfolioo/brief2.jpg" alt="" />
-				</div>      	
-
-			  <div class="description-box">
-				 <h4>Système de reservation dans la banque</h4>		      
-				 <p>Dans ce projet, la fonctionnalité principale est de réserver votre place dans un
-                    banque en ligne, comme on le sait au Maroc si l'on veut faire un simple
-                    virement, nous devons demander un jour de congé et le dépenser à la banque.
-                    Nous offrons également aux employés de cette banque une fonctionnalité d'affichage
-                    des réservations de ce jour avec quelques détails d'optimisation.
-                    <p> Technologies: JEE, JS, HTML5 / CSS3, BOOTSTRAP, GIT, REST
-                    API, DOCKER. </p>
-					</p>
-
-				 <div class="categories">Développement web</div>			               
-			  </div>
-
-			<div class="link-box">
-				   <a href="https://github.com/jaouharder/Projet-JEE" target="_blank">Détails</a>
-				<a href="#" class="popup-modal-dismiss">Fermer</a>
-			</div>		      
-
-		  </div>
 						
 				     			
 				   </div>
