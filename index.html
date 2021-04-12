@@ -40,10 +40,11 @@
    <header>   	
 	
    	<div class="row">
-		   <select class="selectpicker" id="language" onchange="myFunction()" data-width="fit">
-		<option value="eng" data-content='English'>English</option>
-	    <option value="fr" data-content='Français'>Français</option>
-	       </select>
+		   <div class="sticky-top">
+		<select class="selectpicker" id="language" onchange="myFunction()" data-width="fit">
+	 <option value="eng" data-content='English'>English</option>
+	 <option value="fr" data-content='Français'>Français</option>
+		</select></div>
 <script>
 	 function myFunction() {
 	if(document.getElementById("language").value == "fr"){
