@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
 
-   <!--- basic page needs
+	<!--- basic page needs
    ================================================== -->
-   <meta charset="utf-8">
+	<meta charset="utf-8">
 	<title>Jaouhar Derrouich</title>
-	<meta name="description" content="">  
+	<meta name="description" content="">
 	<meta name="author" content="">
 
-   <!-- mobile specific metas
+	<!-- mobile specific metas
    ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
- 	<!-- CSS
+	<!-- CSS
    ================================================== -->
-   <link rel="stylesheet" href="css/base.css">  
-   <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/vendor.css">     
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/vendor.css">
 
-   <!-- script
-   ================================================== -->   
+	<!-- script
+   ================================================== -->
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
-	
 
-   <!-- favicons
+
+	<!-- favicons
 	================================================== -->
 	<link rel="icon" type="image/png" href="logo1.png">
 
@@ -37,165 +40,178 @@
 
 	<!-- header 
    ================================================== -->
-   <header>   	
-	
-<script>
-	 function myFunction() {
-	if(document.getElementById("language").value == "fr"){
-		window.location.href = "findex.html";
-	}  
-	else if (document.getElementById("language").value == "eng"){
-		window.location.href = "index.html";
-	}
+	<header>
 
-}
-</script><div class="sticky-top">
-		<select class="selectpicker" id="language" onchange="myFunction()" data-width="fit">
-	 <option value="eng" data-content='English'>English</option>
-	 <option value="fr" data-content='Français'>Français</option>
-		</select></div>
-   		<div class="top-bar">
-			   
-   	<div >
+		<script>
+			function myFunction() {
+				if (document.getElementById("language").value == "fr") {
+					window.location.href = "findex.html";
+				}
+				else if (document.getElementById("language").value == "eng") {
+					window.location.href = "index.html";
+				}
 
-   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+			}
+		</script>
+		<div class="sticky-top">
+			<select class="selectpicker" id="language" onchange="myFunction()" data-width="fit">
+				<option value="eng" data-content='English'>English</option>
+				<option value="fr" data-content='Français'>Français</option>
+			</select>
+		</div>
+		<div class="top-bar">
 
-	   		<div class="logo">
-		         <a href="index.html">JAOUHAR</a>
-		      </div>		      
+			<div>
 
-		   	<nav id="main-nav-wrap">
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+				<div class="logo">
+					<a href="index.html">JAOUHAR</a>
+				</div>
+
+				<nav id="main-nav-wrap">
 					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
-						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
-						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
-						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
-						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
-						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
-						
+						<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll" href="#about" title="">About</a></li>
+						<li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll" href="#services" title="">Services</a></li>
+
 						<!-- <li><a href="styles.html" title="">Style Demo</a></li>				 -->
 					</ul>
-				</nav>    		
-   		</div> <!-- /top-bar --> 
-   		
-   	</div> <!-- /row --> 		
-   </header> <!-- /header -->
+				</nav>
+			</div> <!-- /top-bar -->
+
+		</div> <!-- /row -->
+	</header> <!-- /header -->
 
 	<!-- intro section
    ================================================== -->
-   <section id="intro">   
+	<section id="intro">
 
-   	<div class="intro-overlay"></div>	
+		<div class="intro-overlay"></div>
 
-   	<div class="intro-content">
-   		<div class="row">
+		<div class="intro-content">
+			<div class="row">
 
-   			<div class="col-twelve">
+				<div class="col-twelve">
 
-	   			<h5>Hello, World.</h5>
-	   			<h1>I'm Jaouhar DERROUICH.</h1>
+					<h5>Hello, World.</h5>
+					<h1>I'm Jaouhar DERROUICH.</h1>
 
-	   			<p class="intro-position">
-	   				<span>Engineering student at the National School of Computer Science
-						and Systems Analysis (ENSIAS) | branch: Software Engineering</span>
-	   			</p>
+					<p class="intro-position">
+						<span>Engineering student at the National School of Computer Science
+							and Systems Analysis (ENSIAS) | branch: Software Engineering</span>
+					</p>
 
-	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+					<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
 
-	   		</div>  
-   			
-   		</div>   		 		
-   	</div> <!-- /intro-content --> 
+				</div>
 
-   	<ul class="intro-social">        
-         <li><a href="https://web.facebook.com/jaouharderrouich/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="https://www.linkedin.com/in/jaouhar-derrouich-401933168/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-         <li><a href="https://github.com/jaouharder" target="_blank"><i class="fa fa-github"></i></a></li>
-         <li><a href="https://www.instagram.com/jaouhar__/"><i class="fa fa-instagram"></i></a></li>
-      </ul> <!-- /intro-social -->      	
+			</div>
+		</div> <!-- /intro-content -->
 
-   </section> <!-- /intro -->
+		<ul class="intro-social">
+			<li><a href="https://web.facebook.com/jaouharderrouich/" target="_blank"><i class="fa fa-facebook"></i></a>
+			</li>
+			<li><a href="https://www.linkedin.com/in/jaouhar-derrouich-401933168/" target="_blank"><i
+						class="fa fa-linkedin"></i></a></li>
+			<li><a href="https://github.com/jaouharder" target="_blank"><i class="fa fa-github"></i></a></li>
+			<li><a href="https://www.instagram.com/jaouhar__/"><i class="fa fa-instagram"></i></a></li>
+		</ul> <!-- /intro-social -->
+
+	</section> <!-- /intro -->
 
 
-   <!-- about section
+	<!-- about section
    ================================================== -->
-   <section id="about">  
+	<section id="about">
 
-   	<div class="row section-intro">
-   		<div class="col-twelve">
+		<div class="row section-intro">
+			<div class="col-twelve">
 
-   			<h5>About</h5>
-   			<h1>Let me introduce myself.</h1>
+				<h5>About</h5>
+				<h1>Let me introduce myself.</h1>
 
-   			<div class="intro-info">
+				<div class="intro-info">
 
-   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+					<img src="images/profile-pic.jpg" alt="Profile Picture">
 
-   				<p class="lead">Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming 
-					languages including C, Java, Python, PHP OOP, JavaScript,HTML5, CSS, MySQL. Strong background in project management.</p>
-   			</div>   			
+					<p class="lead">Experienced with all stages of the development cycle for dynamic web projects.
+						Well-versed in numerous programming
+						languages including C, Java, Python, PHP OOP, JavaScript,HTML5, CSS, MySQL. Strong background in
+						project management.</p>
+				</div>
 
-   		</div>   		
-   	</div> <!-- /section-intro -->
+			</div>
+		</div> <!-- /section-intro -->
 
-   	<div class="row about-content">
+		<div class="row about-content">
 
-   		<div class="col-six tab-full">
+			<div class="col-six tab-full">
 
-   			<h3>Profile</h3>
-   			<ul class="info-list">
-   				<li>
-   					<strong>Fullname:</strong>
-   					<span>Jaouhar DERROUICH</span>
-   				</li>
-   				<li>
-   					<strong>Birth Date:</strong>
-   					<span>December 20, 1998</span>
-   				</li>
-   				<li>
-   					<strong>Job:</strong>
-   					<span>Freelancer, Full Stack Developer</span>
-   				</li>
-   				<li>
-   					<strong>Email:</strong>
-   					<span>jaouharder@gmail.com</span>
-   				</li>
+				<h3>Profile</h3>
+				<ul class="info-list">
+					<li>
+						<strong>Fullname:</strong>
+						<span>Jaouhar DERROUICH</span>
+					</li>
+					<li>
+						<strong>Birth Date:</strong>
+						<span>December 20, 1998</span>
+					</li>
+					<li>
+						<strong>Job:</strong>
+						<span>Freelancer, Full Stack Developer</span>
+					</li>
+					<li>
+						<strong>Email:</strong>
+						<span>jaouharder@gmail.com</span>
+					</li>
 
-   			</ul> <!-- /info-list -->
+				</ul> <!-- /info-list -->
 
-   		</div>
+			</div>
 
-   		<div class="col-six tab-full">
+			<div class="col-six tab-full">
 
-   			<h3>Skills</h3>
+				<h3>Skills</h3>
 				<ul class="skill-bars">
-				   <li>
-				   	<div class="progress percent90"><span>90%</span></div>
-				   	<strong>HTML5</strong>
-				   </li>
+					<li>
+						<div class="progress percent90"><span>90%</span></div>
+						<strong>HTML5</strong>
+					</li>
 
-				   <li>
-				   	<div class="progress percent85"><span>85%</span></div>
-				   	<strong>CSS3</strong>
-				   </li>
+					<li>
+						<div class="progress percent85"><span>85%</span></div>
+						<strong>CSS3</strong>
+					</li>
 
-				   <li>
-				   	<div class="progress percent70"><span>70%</span></div>
-				   	<strong>JQuery</strong>
-				   </li>
-				 
-                   <li>
-				   	<div class="progress percent75"><span>75%</span></div>
-				   	<strong>NodeJS</strong>
-				   </li>
-                   <li>
-				   	<div class="progress percent70"><span>70%</span></div>
-				   	<strong>C/C++</strong>
-				   </li>
-				   <li>
-					<div class="progress percent90"><span>90%</span></div>
-					<strong>JAVA</strong>
-				   </li>
+					<li>
+						<div class="progress percent70"><span>70%</span></div>
+						<strong>JavaScript</strong>
+					</li>
+					<li>
+						<div class="progress percent70"><span>70%</span></div>
+						<strong>React</strong>
+					</li>
+					<li>
+						<div class="progress percent70"><span>70%</span></div>
+						<strong>Oracle JET</strong>
+					</li>
+
+					<li>
+						<div class="progress percent75"><span>75%</span></div>
+						<strong>NodeJS</strong>
+					</li>
+					<li>
+						<div class="progress percent70"><span>70%</span></div>
+						<strong>C/C++</strong>
+					</li>
+					<li>
+						<div class="progress percent90"><span>90%</span></div>
+						<strong>JAVA</strong>
+					</li>
 					<li>
 						<div class="progress percent75"><span>75%</span></div>
 						<strong>PYTHON</strong>
@@ -204,115 +220,158 @@
 						<div class="progress percent90"><span>90%</span></div>
 						<strong>Spring</strong>
 					</li>
-					
-					
-				
-				
-				</ul> <!-- /skill-bars -->		
-
-   		</div>
-
-   	</div>
-
-   	<div class="row button-section">
-   		<div class="col-twelve">
-   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-   			<a href="resume.pdf" target="_blank" title="Download CV" class="button button-primary">Download CV</a>
-   		</div>   		
-   	</div>
-
-   </section> <!-- /process-->    
 
 
-   <!-- resume Section
+
+
+				</ul> <!-- /skill-bars -->
+
+			</div>
+
+		</div>
+
+		<div class="row button-section">
+			<div class="col-twelve">
+				<a href="Derrouich_jaouhar_resume.pdf" target="_blank" title="Download CV" class="button button-primary">Download CV</a>
+			</div>
+		</div>
+
+	</section> <!-- /process-->
+
+
+	<!-- resume Section
    ================================================== -->
 	<section id="resume" class="grey-section">
 
 		<div class="row section-intro">
-   		<div class="col-twelve">
+			<div class="col-twelve">
 
-   			<h5>Resume</h5>
-   			<h1>More of my credentials.</h1>
-   		</div>   		
-   	</div> <!-- /section-intro--> 
+				<h5>Resume</h5>
+				<h1>More of my credentials.</h1>
+			</div>
+		</div> <!-- /section-intro-->
 
-   	<div class="row resume-timeline">
+		<div class="row resume-timeline">
 
-   		<div class="col-twelve resume-header">
+			<div class="col-twelve resume-header">
 
-   			<h2>Education</h2>
+				<h2>Education</h2>
 
-   		</div> <!-- /resume-header -->
+			</div> <!-- /resume-header -->
 
-   		<div class="col-twelve">
+			<div class="col-twelve">
 
-   			<div class="timeline-wrap">
+				<div class="timeline-wrap">
 
-   				<div class="timeline-block">
+					<div class="timeline-block">
 
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
 
-	   				<div class="timeline-header">
-	   					<h3>Engineer Degree</h3>
-	   					<p>July 2019 - Present</p>
-	   				</div>
+						<div class="timeline-header">
+							<h3>Engineer Degree</h3>
+							<p>July 2019 - Present</p>
+						</div>
 
-	   				<div class="timeline-content">
-	   					<h4>ENSIAS</h4>
-	   					<p>Second year in National School for ComputerScience
-							(ENSIAS), software engineer branch
-							.</p>
-	   				</div>
+						<div class="timeline-content">
+							<h4>ENSIAS</h4>
+							<p> Third (last) year in National School for ComputerScience
+								(ENSIAS), software engineer branch
+								.</p>
+						</div>
 
-	   			</div> <!-- /timeline-block -->
+					</div> <!-- /timeline-block -->
 
-	   			<div class="timeline-block">
+					<div class="timeline-block">
 
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
 
-	   				<div class="timeline-header">
-	   					<h3>Bachelor Degree</h3>
-	   					<p>July 2018 - June 2019</p>
-	   				</div>
+						<div class="timeline-header">
+							<h3>Bachelor Degree</h3>
+							<p>July 2018 - June 2019</p>
+						</div>
 
-	   				<div class="timeline-content">
-	   					<h4>Higher School Preparatory Classes "CPGE"</h4>
-	   					<p>Math and physics branch</p>
-	   				</div>
+						<div class="timeline-content">
+							<h4>Higher School Preparatory Classes "CPGE"</h4>
+							<p>Math and physics branch</p>
+						</div>
 
-	   			</div> <!-- /timeline-block -->
+					</div> <!-- /timeline-block -->
 
-	   			<div class="timeline-block">
+					<div class="timeline-block">
 
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
 
-	   				<div class="timeline-header">
-	   					<h3>Certificate</h3>
-	   					<p>May 2020 - June 2021</p>
-	   				</div>
+						<div class="timeline-header">
+							<h3>Certificate</h3>
+							<p>May 2020 - June 2021</p>
+						</div>
 
-	   				<div class="timeline-content">
-	   					<h4>The Coding School</h4>
-	   					<p>Full-year course called “Qubit by Qubit’s Introduction to 
-							Quantum Computing” taught live by MIT and Oxford quantum 
-							scientists.
+						<div class="timeline-content">
+							<h4>The Coding School</h4>
+							<p>Full-year course called “Qubit by Qubit’s Introduction to
+								Quantum Computing” taught live by MIT and Oxford quantum
+								scientists.
 							</p>
-	   				</div>
+						</div>
 
-	   			</div> <!-- /timeline-block -->
+					</div> <!-- /timeline-block -->
 
-   			</div> <!-- /timeline-wrap -->   			
+				</div> <!-- /timeline-wrap -->
 
-   		</div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /resume-timeline -->
-		
+			</div> <!-- /col-twelve -->
+			<div class="col-twelve resume-header">
+
+				<h2>PROFESSIONAL EXPERIENCE</h2>
+
+			</div> <!-- /resume-header -->
+
+			<div class="col-twelve">
+
+				<div class="timeline-wrap">
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Research Assistant </h3>
+							<p>July 2021 - Present</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4><img src="images/oracle-logo.png" alt="oracle logo" width="80" height="6"> </h4>
+						</div>
+						<div class="timeline-block">
+
+							<div class="timeline-ico">
+								<i class="fa fa-briefcase"></i>
+							</div>
+
+							<div class="timeline-header">
+								<h3>Full Stack Developer intern </h3>
+								<p>Juin 2020 - September 2020</p>
+							</div>
+
+							<div class="timeline-content">
+								<h4>CDM</h4>
+							</div>
+
+						</div> <!-- /timeline-block -->
+
+					</div> <!-- /timeline-wrap -->
+
+				</div> <!-- /col-twelve -->
+
+			</div> <!-- /resume-timeline -->
+
 	</section> <!-- /features -->
 
 
@@ -321,195 +380,271 @@
 	<section id="portfolio">
 
 		<div class="row section-intro">
-   		<div class="col-twelve">
+			<div class="col-twelve">
 
-   			<h5>Portfolio</h5>
-   			<h1>Check Out Some of My Works.</h1>
+				<h5>Portfolio</h5>
+				<h1>Check Out Some of My Works.</h1>
 
-   		</div>   		
-   	</div> <!-- /section-intro--> 
+			</div>
+		</div> <!-- /section-intro-->
 
-   	<div class="row portfolio-content">
+		<div class="row portfolio-content">
 
-   		<div class="col-twelve">
+			<div class="col-twelve">
 
-   			<!-- portfolio-wrapper -->
-	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+				<!-- portfolio-wrapper -->
+				<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
 
-				<div class="bgrid folio-item">
-					<div class="item-wrap">
-						<img src="images/portfolioo/brief2.jpg" alt="TICTACTOE">
-					   <a href="#modal-01" class="overlay">	                  	           
-						  <div class="folio-item-table">
-							  <div class="folio-item-cell">
-										 <h3 class="folio-title">TIC TAC TOE</h3>	     					    
-										   <span class="folio-types">
-											 Games Development
-										 </span>
-									 </div>	                      	
-						  </div>                    
-					   </a>
-					</div>	               
-					 </div>
-					 <div class="bgrid folio-item">
+
+					<div class="bgrid folio-item">
 						<div class="item-wrap">
 							<img src="images/portfolioo/brief2.jpg" alt="Liberty">
-						   <a href="#modal-02" class="overlay">	                  	           
-							  <div class="folio-item-table">
-								  <div class="folio-item-cell">
-											 <h3 class="folio-title">Inventory management system</h3>	     					    
-											   <span class="folio-types">
-												 Web Development
-											 </span>
-										 </div>	                      	
-							  </div>                    
-						   </a>
-						</div>	               
-						 </div>
-						 <div class="bgrid folio-item">
-					<div class="item-wrap">
-						<img src="images/portfolioo/brief3.jpg" alt="Shutterbug">
-						<a href="#modal-03" class="overlay">              		                  
-						  <div class="folio-item-table">
-							  <div class="folio-item-cell">
-								  <h3 class="folio-title">Chatbot for REDMINE</h3>	     					    
-										  <span class="folio-types">
-											 Web Development
-										</span>		     		
-									 </div> 	                      	
-						  </div>                    
-					   </a>
+							<a href="#modal-01" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Bank reservation system</h3>
+										<span class="folio-types">
+											Web Development
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
 					</div>
-				</div>
-					
-				<div class="bgrid folio-item">
+					<div class="bgrid folio-item">
 						<div class="item-wrap">
 							<img src="images/portfolioo/brief2.jpg" alt="Liberty">
-						   <a href="#modal-04" class="overlay">	                  	           
-							  <div class="folio-item-table">
-								  <div class="folio-item-cell">
-											 <h3 class="folio-title">Bank reservation system</h3>	     					    
-											   <span class="folio-types">
-												 Web Development
-											 </span>
-										 </div>	                      	
-							  </div>                    
-						   </a>
-						</div>	               
-						 </div>
+							<a href="#modal-02" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Inventory management system</h3>
+										<span class="folio-types">
+											Web Development
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolioo/brief3.jpg" alt="Shutterbug">
+							<a href="#modal-03" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Chatbot for REDMINE</h3>
+										<span class="folio-types">
+											Web Development
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolioo/brief2.jpg" alt="BreastCancer">
+							<a href="#modal-04" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Breast cancer with deep learning</h3>
+										<span class="folio-types">
+											Deep learning
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolioo/brief2.jpg" alt="Datawarehouse">
+							<a href="#modal-05" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Datawarehouse</h3>
+										<span class="folio-types">
+											Datawarehouse
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolioo/brief2.jpg" alt="TICTACTOE">
+							<a href="#modal-06" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">TIC TAC TOE</h3>
+										<span class="folio-types">
+											Games Development
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
 
-	            <!-- modal popups - begin
+					<!-- modal popups - begin
 	            ============================================================= -->
 
 
+					<div id="modal-01" class="popup-modal slider mfp-hide">
 
-					<div id="modal-01" class="popup-modal slider mfp-hide">	
+						<div class="media">
+							<img src="images/portfolioo/brief2.jpg" alt="" />
+						</div>
+
+						<div class="description-box">
+							<h4>Bank reservation system</h4>
+							<p>In this project, the main functionality is reserving your place in a
+								bank online, as we know in Morocco if we want to make a simple
+								credit transfer we must ask for a day off and spend it in the bank.
+								We also offer to employees of that bank a functionality of displaying
+								reservations of that day with some optimization details.
+							<p>Technologies: JEE, JS, HTML5/CSS3, BOOTSTRAP, GIT, REST
+								API, DOCKER.</p>
+							</p>
+
+							<div class="categories">Web Development</div>
+						</div>
+
+						<div class="link-box">
+							<a href="https://github.com/jaouharder/Projet-JEE" target="_blank">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div>
+					<div id="modal-06" class="popup-modal slider mfp-hide">
 
 						<div class="media">
 							<img src="images/portfolioo/tic.png" alt="" />
-						</div>      	
+						</div>
 
-					  <div class="description-box">	
-						  		  <div id="modal-04" class="popup-modal slider mfp-hide">	
-
-				<div class="media">
-					<img src="images/portfolioo/brief2.jpg" alt="" />
-				</div>      	
-
-			  <div class="description-box">
-				 <h4>Bank reservation system</h4>		      
-				 <p>In this project, the main functionality is reserving your place in a 
-					bank online, as we know in Morocco if we want to make a simple 
-					credit transfer we must ask for a day off and spend it in the bank. 
-					We also offer to employees of that bank a functionality of displaying 
-					reservations of that day with some optimization details.
-					<p>Technologies: JEE, JS, HTML5/CSS3, BOOTSTRAP, GIT, REST 
-					API, DOCKER.</p> 
-					</p>
-
-				 <div class="categories">Web Development</div>			               
-			  </div>
-
-			<div class="link-box">
-				   <a href="https://github.com/jaouharder/Projet-JEE" target="_blank">Details</a>
-				<a href="#" class="popup-modal-dismiss">Close</a>
-			</div>		      
-
-		  </div>
-						 <h4>TIC TAC TOE</h4>		      
-						 <p>Using C,we created TIC TAC TOEgamewith two options, one of them
-							is to play vs computer in which we implemented AI.
+						<div class="description-box">
+							<h4>TIC TAC TOE</h4>
+							<p>Using C,we created TIC TAC TOEgamewith two options, one of them
+								is to play vs computer in which we implemented AI.
 							<p>
-							Technologies : C, SDL, MIN/MAX. </p> </p>
+								Technologies : C, SDL, MIN/MAX. </p>
+							</p>
 
-						 <div class="categories">Games Development</div>			               
-					  </div>
+							<div class="categories">Games Development</div>
+						</div>
 
-					<div class="link-box">
-					   	<a href="#">Details</a>
-						<a href="#" class="popup-modal-dismiss">Close</a>
-					</div>		      
+						<div class="link-box">
+							<a href="#">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
 
-				  </div> 
-
-					<div id="modal-03" class="popup-modal slider mfp-hide">	
+					</div>
+					<div id="modal-03" class="popup-modal slider mfp-hide">
 
 						<div class="media">
 							<img src="images/portfolioo/red.png" alt="" />
-						</div>      	
+						</div>
 
-					  <div class="description-box">
-						 <h4>Chatbot for REDMINE</h4>		      
-						 <p>Using JAVA, we created a chatbot that can do multiple things in your
-							Redmine environment using of course REST API 
+						<div class="description-box">
+							<h4>Chatbot for REDMINE</h4>
+							<p>Using JAVA, we created a chatbot that can do multiple things in your
+								Redmine environment using of course REST API
 							<p>
-							Technologies : JAVA, Gradle, REST API, XATKIT, AI.</p></p>
+								Technologies : JAVA, Gradle, REST API, XATKIT, AI.</p>
+							</p>
 
-						 <div class="categories">Web Development</div>			               
-					  </div>
+							<div class="categories">Web Development</div>
+						</div>
 
-					<div class="link-box">
-					   	<a href="https://github.com/jaouharder/Redmine-Chatbot" target="_blank">Details</a>
-						<a href="#" class="popup-modal-dismiss">Close</a>
-					</div>		      
+						<div class="link-box">
+							<a href="https://github.com/jaouharder/Redmine-Chatbot" target="_blank">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
 
-				  </div> 	
-				  <div id="modal-02" class="popup-modal slider mfp-hide">	
+					</div>
+					<div id="modal-02" class="popup-modal slider mfp-hide">
 
-					<div class="media">
-						<img src="images/portfolioo/brief2.png" alt="" />
-					</div>      	
+						<div class="media">
+							<img src="images/portfolioo/brief2.png" alt="" />
+						</div>
 
-				  <div class="description-box">
-					 <h4>Inventory management system</h4>		      
-					 <p>Web-based software that can manage employees, groups, stores, 
-						brands, products, and orders including invoice generating and 
-						annual reports. 
-						<p>
-						Technologies: HTML5/CSS3, JQUERY Ajax, Mysqli, PHP, 
-						Bootstrap.</p> 
-						</p>
+						<div class="description-box">
+							<h4>Inventory management system</h4>
+							<p>Web-based software that can manage employees, groups, stores,
+								brands, products, and orders including invoice generating and
+								annual reports.
+							<p>
+								Technologies: HTML5/CSS3, JQUERY Ajax, Mysqli, PHP,
+								Bootstrap.</p>
+							</p>
 
-					 <div class="categories">Web Development</div>			               
-				  </div>
+							<div class="categories">Web Development</div>
+						</div>
 
-				<div class="link-box">
-					   <a href="2020_1A_GL_Mem_DERROUICH.pdf" target="_blank">Details</a>
-					<a href="#" class="popup-modal-dismiss">Close</a>
-				</div>		      
+						<div class="link-box">
+							<a href="2020_1A_GL_Mem_DERROUICH.pdf" target="_blank">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
 
-			  </div> 	
+					</div>
+					<div id="modal-04" class="popup-modal slider mfp-hide">
 
-						
-				     			
-				   </div>
-	         </div> <!-- /portfolio-wrapper --> 
+						<div class="media">
+							<img src="images/portfolioo/brief2.png" alt="" />
+						</div>
 
-   		</div>  <!-- /twelve -->   
+						<div class="description-box">
+							<h4>Breast cancer with deep learning</h4>
+							<p>The aim of this project is to identify breast cancer when it is present in
+								histopathological
+								images.
+							<p>
+								Technologies: Python, Deep learning, transfer leanring, CNN, ReLU, Git, Github</p>
+							</p>
 
-   	</div> <!-- /portfolio-content --> 
-		
-	</section> <!-- /portfolio --> 
+							<div class="categories">Deep learning</div>
+						</div>
+
+						<div class="link-box">
+							<a href="Rapport_PFA.pdf" target="_blank">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div>
+					<div id="modal-05" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="images/portfolioo/brief2.png" alt="" />
+						</div>
+
+						<div class="description-box">
+							<h4>Datawarehouse</h4>
+							<p> Creation and Implementation of a Datawarehouse for Analysis of Internet Sales Data.
+							<p>
+								Technologies: SQL, Visual Studio, OLAP Cube, SSAS ,SRSS ,Excel</p>
+							</p>
+
+							<div class="categories">Datawarehouse</div>
+						</div>
+
+						<div class="link-box">
+							<a href="Rapport_DW.pdf" target="_blank">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div>
+
+
+
+
+				</div> <!-- /portfolio-wrapper -->
+
+			</div> <!-- /twelve -->
+
+		</div> <!-- /portfolio-content -->
+
+	</section> <!-- /portfolio -->
 
 
 	<!-- CTA Section
@@ -517,9 +652,9 @@
 
    	</div> <!-- /cta-content -->
 
-   </section> <!-- /cta --> 
+	</section> <!-- /cta -->
 
-	
+
 	<!-- services Section
    ================================================== -->
 	<section id="services">
@@ -527,58 +662,58 @@
 		<div class="overlay"></div>
 
 		<div class="row section-intro">
-   		<div class="col-twelve">
+			<div class="col-twelve">
 
-   			<h5>Services</h5>
-   			<h1>What Can I Do For You?</h1>
-   		</div>   		
-   	</div> <!-- /section-intro -->
+				<h5>Services</h5>
+				<h1>What Can I Do For You?</h1>
+			</div>
+		</div> <!-- /section-intro -->
 
-   	<div class="row services-content">
+		<div class="row services-content">
 
-   		<div id="owl-slider" class="owl-carousel services-list">
+			<div id="owl-slider" class="owl-carousel services-list">
 
-	      	<div class="service">	
+				<div class="service">
 
-	      		<span class="icon"><i class="icon-earth"></i></span>            
+					<span class="icon"><i class="icon-earth"></i></span>
 
-	            <div class="service-content">	
+					<div class="service-content">
 
-	            	 <h3>Back End</h3>
-	         		
-	         	</div> 	         	 
+						<h3>Back End</h3>
 
-				</div> <!-- /service -->
+					</div>
 
-				<div class="service">	
-
-					<span class="icon"><i class="icon-window"></i></span>                          
-
-	            <div class="service-content">	
-
-	            	<h3>Front End</h3>  
-
-	            </div>	  
-				
 				</div> <!-- /service -->
 
 				<div class="service">
 
-					<span class="icon"><i class="icon-toggles"></i></span>	              
+					<span class="icon"><i class="icon-window"></i></span>
 
-				<div class="service-content">
+					<div class="service-content">
 
-					<h3>Integration</h3>
+						<h3>Front End</h3>
 
-				</div>        
+					</div>
 
-			   </div> <!-- /service -->
+				</div> <!-- /service -->
 
-	      </div> <!-- /services-list -->
-   		
-   	</div> <!-- /services-content -->
-		
-	</section> <!-- /services -->	
+				<div class="service">
+
+					<span class="icon"><i class="icon-toggles"></i></span>
+
+					<div class="service-content">
+
+						<h3>Integration</h3>
+
+					</div>
+
+				</div> <!-- /service -->
+
+			</div> <!-- /services-list -->
+
+		</div> <!-- /services-content -->
+
+	</section> <!-- /services -->
 
 
 	<!-- stats Section
@@ -604,7 +739,7 @@
 							Projects Completed
 						</h5>
 
-					</div> <!-- /stat -->					
+					</div> <!-- /stat -->
 
 					<div class="bgrid stat">
 
@@ -636,7 +771,7 @@
 							Awards Received
 						</h5>
 
-					</div> <!-- /stat -->									
+					</div> <!-- /stat -->
 
 					<div class="bgrid stat">
 
@@ -693,158 +828,99 @@
 
 	</section> <!-- /stats -->
 
-	
-   <!-- contact
-   ================================================== -->
-	<section id="contact">
+	<div class="row contact-info">
 
-		<div class="row section-intro">
-   		<div class="col-twelve">
+		<div class="col-four tab-full">
 
-   			<h5>Contact</h5>
-   			<h1>I'd Love To Hear From You.</h1>
+			<div class="icon">
+				<i class="icon-pin"></i>
+			</div>
 
-   		
-   		</div> 
-   	</div> <!-- /section-intro -->
+			<h5>Where to find me</h5>
 
-   	<div class="row contact-form">
-
-   		<div class="col-twelve">
-
-            <!-- form -->
-            <form name="contactForm" id="contactForm" method="post" action="">
-      			<fieldset>
-
-                  <div class="form-field">
- 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
-                  </div>
-                  <div class="form-field">
-	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
-	               </div>
-                  <div class="form-field">
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>                       
-                  <div class="form-field">
-	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	               </div>                      
-                 <div class="form-field">
-                     <button class="submitform">Submit</button>
-                     <div id="submit-loader">
-                        <div class="text-loader">Sending...</div>                             
-       				      <div class="s-loader">
-								  	<div class="bounce1"></div>
-								  	<div class="bounce2"></div>
-								  	<div class="bounce3"></div>
-								</div>
-							</div>
-                  </div>
-
-      			</fieldset>
-      		</form> <!-- Form End -->
-
-            <!-- contact-warning -->
-            <div id="message-warning">            	
-            </div>            
-            <!-- contact-success -->
-      		<div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-      		</div>
-
-         </div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /contact-form -->
-
-   	<div class="row contact-info">
-
-   		<div class="col-four tab-full">
-
-   			<div class="icon">
-   				<i class="icon-pin"></i>
-   			</div>
-
-   			<h5>Where to find me</h5>
-
-   			<p>
-            Villa 33 lot kortoba,<br>
-            MEKNES, 50050 MA<br>
-            </p>
-
-   		</div>
-
-   		<div class="col-four tab-full collapse">
-
-   			<div class="icon">
-   				<i class="icon-mail"></i>
-   			</div>
-
-   			<h5>Email Me At</h5>
-
-   			<p>jaouharder@gmail.com		     
+			<p>
+				Villa 33 lot kortoba,<br>
+				MEKNES, 50050 MA<br>
 			</p>
 
-   		</div>
+		</div>
 
-   		<div class="col-four tab-full">
+		<div class="col-four tab-full collapse">
 
-   			<div class="icon">
-   				<i class="icon-phone"></i>
-   			</div>
+			<div class="icon">
+				<i class="icon-mail"></i>
+			</div>
 
-   			<h5>Call Me At</h5>
+			<h5>Email Me At</h5>
 
-   			<p>Phone: (+212) 672010785
+			<p>jaouharder@gmail.com
 			</p>
 
-   		</div>
-   		
-   	</div> <!-- /contact-info -->
-		
+		</div>
+
+		<div class="col-four tab-full">
+
+			<div class="icon">
+				<i class="icon-phone"></i>
+			</div>
+
+			<h5>Call Me At</h5>
+
+			<p>Phone: (+212) 672010785
+			</p>
+
+		</div>
+
+	</div> <!-- /contact-info -->
+
 	</section> <!-- /contact -->
 
 
-   <!-- footer
+	<!-- footer
    ================================================== -->
 
-   <footer>
-     	<div class="row">
+	<footer>
+		<div class="row">
 
-     		<div class="col-six tab-full pull-right social">
+			<div class="col-six tab-full pull-right social">
 
-     			<ul class="footer-social">        
-			      <li><a href="https://web.facebook.com/jaouharderrouich/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-			      <li><a href="https://www.linkedin.com/in/jaouhar-derrouich-401933168/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-			      <li><a href="https://github.com/jaouharder" target="_blank"><i class="fa fa-github"></i></a></li>
-			      <!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
-			      <li><a href="https://www.instagram.com/jaouhar__/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-			   </ul> 
-	      		
-	      </div>
+				<ul class="footer-social">
+					<li><a href="https://web.facebook.com/jaouharderrouich/" target="_blank"><i
+								class="fa fa-facebook"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/jaouhar-derrouich-401933168/" target="_blank"><i
+								class="fa fa-linkedin"></i></a></li>
+					<li><a href="https://github.com/jaouharder" target="_blank"><i class="fa fa-github"></i></a></li>
+					<!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
+					<li><a href="https://www.instagram.com/jaouhar__/" target="_blank"><i
+								class="fa fa-instagram"></i></a></li>
+				</ul>
 
-      	<div class="col-six tab-full">
-	      	<div class="copyright">
-		        	<span>© Copyright JAOUHAR 2021.</span> 
-		        	<span>Design by <a href="#">Jaouhar DERROUICH</a></span>	         	
-		         </div>		                  
-	      	</div>
+			</div>
 
-	      	<div id="go-top">
-		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-		      </div>
+			<div class="col-six tab-full">
+				<div class="copyright">
+					<span>© Copyright JAOUHAR 2021.</span>
+					<span>Design by <a href="#">Jaouhar DERROUICH</a></span>
+				</div>
+			</div>
 
-      	</div> <!-- /row -->     	
-   </footer>  
+			<div id="go-top">
+				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+			</div>
 
-   <div id="preloader"> 
-    	<div id="loader"></div>
-   </div> 
+		</div> <!-- /row -->
+	</footer>
 
-   <!-- Java Script
-   ================================================== --> 
-   <script src="js/jquery-2.1.3.min.js"></script>
-   <script src="js/plugins.js"></script>
-   <script src="js/main.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.all.min.js"></script>
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+
+	<!-- Java Script
+   ================================================== -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.all.min.js"></script>
 
 </body>
 
